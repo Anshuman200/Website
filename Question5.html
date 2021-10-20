@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<style>
+#form_body{
+	width: 350px;
+	height: 450px;
+	background: linear-gradient(#12324287, #87679698)
+	margin: 150px, auto;
+
+}
+
+#login_title{
+	width: 80%;
+	height: 100px;
+	background: linear-gradient(#12324287, #87679698)
+	margin-left: 20px;
+
+}
+#login_title h2{
+	text-transform:uppercase;
+}
+#login_title h4{
+	margin-top: -20px;
+}
+#input_details{
+	margin-left: 50px;
+}
+.input_label{
+	text-transform:uppercase;
+}
+.input_box{
+	width: 80%;
+	height: 30px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	background: #34343498
+}
+.input_box span{
+	color: white;
+	width: 5px;
+	padding-left: 15px;
+	margin-top: 5px;
+	font-sie: 15px;
+	display: inline-block;
+}
+.input_box input{
+	width: 200px;
+	height: 100%;
+	margin-top: 1px;
+	margin-left: 1px;
+	
+}
+input[type='password']::placeholder{
+	text-align: right;
+	color: black;
+	margin-right: 10px;
+}
+#submit_box{
+	width: 200px;
+	padding: 8px;
+	background: #11111154;
+	margin-left: 25px;
+}
+</style>
+<body>
+	<div id="form_body">
+		<div id="login_title">
+			<h2>Login</h2>
+			<h4>Welcome to our CMSsystem</h4>
+		</div>
+		
+		<div id="input_details">
+			<div>
+				<label for='email' class='input_label'>email</label>
+			</div>
+			<div class="input_box">
+				<span>
+					<i class='fa fa_envelope-0'></i>
+				</span>
+				
+				<span>
+					<input type='email' id='email' name='email'>
+				</span>
+			</div>
+			<div>
+				<label for="pass" class="input_label">Password</label>
+			</div>
+			<div class="input_box">
+				<span>
+					<i class='fa fa-key'></i>
+				</span>
+				
+				<span>
+					<input type='password' id='password' name='password'>
+				</span>
+			</div>
+		</div>
+	</div>
+		
+
+
+</body>
+</html>
+
